@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASocks</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d2596c097.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <main class="main">
+        <aside class="menu">
+            <div class="menu__top">
+                <a class="menu__logo" href="#">
+                    <img class="menu__logo-img" src="images/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="menu__items">
+
+                <div class="menu__item">
+                    <h3 class="menu__item-title">Dashboard</h3>
+
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link" href="#"><i
+                                    class="fas fa-chart-line"></i><span class="menu__list-text">Мои прокси</span></a>
+                        </li>
+                        <li class="menu__list-item"><a class="menu__list-link menu__list-link--active" href="#"><i
+                                    class="fas fa-wallet"></i><span class="menu__list-text">Баланс и тарифы</span></a>
+                        </li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#"><i class="fas fa-key"></i><span
+                                    class="menu__list-text">API</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="menu__item">
+                    <h3 class="menu__item-title">Аккаунт</h3>
+
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link" href="#"><i class="fas fa-user"></i><span
+                                    class="menu__list-text">Профиль</span></a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#"><i
+                                    class="fas fa-ticket-alt"></i><span class="menu__list-text">Реферальная
+                                    система</span></a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#"><i
+                                    class="fas fa-users"></i><span class="menu__list-text">Пользователи</span></a></li>
+                    </ul>
+                </div>
+
+
+                <div class="menu__item">
+                    <h3 class="menu__item-title">Информация</h3>
+
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">Live Chat</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">Legal></a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+
+        <section class="balance">
+
+            <div class="balance__top">
+                <div class="balance__chapter">
+                    <h1 class="balance__chapter-title">Баланс и тарифы</h1>
+                </div>
+
+                <div class="balance__persone">
+                    <div class="balance__ip">
+                        <a class="balance__ip-whitelist" href="#">
+                            IP Whitelist
+                        </a>
+                    </div>
+
+                    <div class="balance__user">
+                        <div class="balance__box">
+                            <div class="balance__price">
+                                <a class="balance__price-wallet" href="#">
+                                    Пополнить
+                                    <span class="balance__price-moneu">$12,743.00</span>
+                                </a>
+                            </div>
+
+                            <div class="balance__mail">
+                                <a class="balance__mail-mailto" href="mailto:johndoe@gmail.com">
+                                    johndoe@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <a class="balance__picture" href="#">
+                            <img class="balance__picture-img" src="images/avatar.png" alt="">
+                        </a>
+
+                    </div>
+
+                    <a class="balance__login" href="#">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="statick">
+
+                <div class="statick__left">
+                    <div class="statick__balance">
+                        <h2 class="statick__balance-title">Текущий баланс</h2>
+                        <p class="statick__balance-value">$12,743<span class="statick__balance-zero">.00</span></p>
+                        <a class="statick__balance-deposit" href="#"> <span class="statick__balance-arrow">
+                                <i class="fas fa-arrow-down"></i></span> Пополнить</a>
+                    </div>
+                </div>
+
+                <div class="statick__right">
+                    <div class="statick__balance">
+                        <h2 class="statick__balance-title">Реферальный баланс</h2>
+                        <div class="ref">
+                            <p class="statick__balance-value">$143<span class="statick__balance-zero">.12</span></p>
+
+                            <a class="ref__item" href="#"><span><i class="fas fa-chevron-up"></i></span> $7.12</a>
+                        </div>
+                        <a class="statick__balance-load" href="#">Подробнее</a>
+                    </div>
+
+                    <div class="statick__grafik">
+                        <div class="statick__grafik-img">
+                            <svg width="429" height="65" viewBox="0 0 429 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.6"
+                                    d="M1 51.9701L38.5872 63.4536C41.6562 64.3912 44.9884 63.4042 47.0518 60.9465L84.2552 16.6307C85.7752 14.8201 88.0182 13.7745 90.3823 13.7745H128.466C129.256 13.7745 130.041 13.6575 130.797 13.4273L167.276 2.31573C169.957 1.49912 172.869 2.14489 174.954 4.01802L211.963 37.2739C213.432 38.5934 215.336 39.3234 217.31 39.3234H254.68C256.128 39.3234 257.549 38.9303 258.791 38.1862L297.643 14.9116C298.885 14.1675 300.306 13.7745 301.754 13.7745H425"
+                                    stroke="#796BE4" stroke-width="2" stroke-linejoin="round" />
+                                <circle cx="425" cy="14" r="3" fill="white" stroke="#ACA3EE" stroke-width="2" />
+                            </svg>
+                        </div>
+
+                        <div class="statick__items">
+                            <div class="statick__item">
+                                <p class="statick__item-value">113,12$</p>
+                                <p class="statick__item-descr">Общий доход</p>
+                            </div>
+                            <div class="statick__item">
+                                <p class="statick__item-value">13,43$</p>
+                                <p class="statick__item-descr">Доход за 7 дней</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="tariff">
+                <div class="tariff__top">
+                    <h2 class="tariff__top-title">
+                        Мои планы
+                    </h2>
+
+                    <a class="tariff__top-arrange" href="#">
+                        Оформить план
+                    </a>
+                </div>
+
+                <div class="tariff__items">
+
+                    <div class="tariff__item">
+                        <div class="tariff__box">
+                            <div class="tariff__name">
+                                <h4 class="tariff__box-title">Сотрудники, affilate</h4>
+                                <p class="tariff__box-text">The Godfather</p>
+                            </div>
+
+                            <div class="tariff__option">
+                                <a class="tariff__option-link" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="tariff__content">
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/database.png" alt="">
+                                <p class="tariff__info-text">3.24 Гб / 50 Гб</p>
+                            </div>
+
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/word.png" alt="">
+                                <p class="tariff__info-text">100+ countries</p>
+                            </div>
+
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/persone.png" alt="">
+                                <p class="tariff__info-text">3 <span class="tariff__info-text--color">из 7</span> </p>
+
+                                <a class="tariff__info-redact" href="#">Заполнить</a>
+                            </div>
+                        </div>
+
+                        <div class="tariff__footer">
+                            <p class="tariff__footer-status">Активен</p>
+
+                            <p class="tariff__footer-date">до 16/04/2022</p>
+                        </div>
+                    </div>
+
+                    <div class="tariff__item">
+                        <div class="tariff__box">
+                            <div class="tariff__name">
+                                <h4 class="tariff__box-title">Marketing 3</h4>
+                                <p class="tariff__box-text">Storm Trooper</p>
+                            </div>
+
+                            <div class="tariff__option">
+                                <a class="tariff__option-link" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="tariff__content">
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/database.png" alt="">
+                                <p class="tariff__info-text">3.24 Гб / 50 Гб</p>
+                            </div>
+
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/word.png" alt="">
+                                <p class="tariff__info-text">50+ countries</p>
+                            </div>
+
+                            <div class="tariff__info">
+
+                                <img class="tariff__info-img" src="images/persone.png" alt="">
+                                <p class="tariff__info-text">4 <span class="tariff__info-text--color">из 4</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tariff__footer">
+                            <p class="tariff__footer-status">Активен</p>
+
+                            <p class="tariff__footer-date">до 16/04/2022</p>
+                        </div>
+                    </div>
+
+
+                    <div class="tariff__item">
+                        <div class="tariff__box">
+                            <div class="tariff__name">
+                                <h4 class="tariff__box-title">Marketing 2</h4>
+                                <p class="tariff__box-text">Storm Trooper</p>
+                            </div>
+
+                            <div class="tariff__option">
+                                <a class="tariff__option-link" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="tariff__content">
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/database.png" alt="">
+                                <p class="tariff__info-text">3.24 Гб / 50 Гб</p>
+                            </div>
+
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/word.png" alt="">
+                                <p class="tariff__info-text">50+ countries</p>
+                            </div>
+
+                            <div class="tariff__info">
+
+                                <img class="tariff__info-img" src="images/persone.png" alt="">
+                                <p class="tariff__info-text">4 <span class="tariff__info-text--color">из 4</span>
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="tariff__footer">
+                            <p class="tariff__footer-status tariff__footer-status--end">Завершен</p>
+
+                            <a class="tariff__footer-late" href="#">Продлить</a>
+                        </div>
+                    </div>
+
+
+                    <div class="tariff__item">
+                        <div class="tariff__box">
+                            <div class="tariff__name">
+                                <h4 class="tariff__box-title">Marketing 1</h4>
+                                <p class="tariff__box-text">Storm Trooper</p>
+                            </div>
+
+                            <div class="tariff__option">
+                                <a class="tariff__option-link" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="tariff__content">
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/database.png" alt="">
+                                <p class="tariff__info-text">3.24 Гб / 50 Гб</p>
+                            </div>
+
+                            <div class="tariff__info">
+                                <img class="tariff__info-img" src="images/word.png" alt="">
+                                <p class="tariff__info-text">50+ countries</p>
+                            </div>
+
+                            <div class="tariff__info">
+
+                                <img class="tariff__info-img" src="images/persone.png" alt="">
+                                <p class="tariff__info-text">4 <span class="tariff__info-text--color">из 4</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tariff__footer">
+                            <p class="tariff__footer-status tariff__footer-status--end">Завершен</p>
+
+                            <a class="tariff__footer-late" href="#">Продлить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="history">
+                <div class="history__top">
+                    <h2 class="history__top-title">
+                        История платежей
+                    </h2>
+                </div>
+
+                <div class="history__pugin">
+                    <div class="history__left">
+
+                        <div class="history__data">
+                            <p class="history__data-text">
+                                Дата
+                            </p>
+
+                            <div class="arrows">
+                                <button><i class="fas fa-chevron-up"></i></button>
+                                <button><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="history__status">
+                            <p class="history__status-text">
+                                Статус
+                            </p>
+
+                            <div class="arrows">
+                                <button><i class="fas fa-chevron-up"></i></button>
+                                <button><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="history__right">
+                        <div class="history__way">
+                            <p class="history__way-text">
+                                Способ
+                            </p>
+
+                            <div class="arrows">
+                                <button><i class="fas fa-chevron-up"></i></button>
+                                <button><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="history__summ">
+                            <p class="history__summ-text">
+                                Сумма транзакции
+                            </p>
+
+                            <div class="arrows">
+                                <button><i class="fas fa-chevron-up"></i></button>
+                                <button><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="history__items">
+                    <div class="history__item">
+                        <div class="history__date">
+                            <p class="history__date-text">03.12.2021</p>
+                        </div>
+
+                        <div class="history__state">
+                            <p class="history__state-text history__state-text--obr">Обрабатывается</p>
+                        </div>
+
+                        <div class="history__addition">
+                            <a class="history__addition-link" href="#">Пополнение счёта</a>
+                        </div>
+
+                        <div class="history__code">
+                            <p class="history__code-text" href="#">d8df6ae25c8b55d868</p>
+                        </div>
+
+
+                        <div class="history__method">
+                            <p class="history__method-text" href="#"> <span class="history__method-icon"><i
+                                        class="fab fa-bitcoin"></i></span> BTC</p>
+                        </div>
+
+                        <div class="history__summa">
+                            <p class="history__summa-text" href="#">0.0250 BTC <span
+                                    class="history__summa-downtext">15.65 USD</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="history__item">
+                        <div class="history__date">
+                            <p class="history__date-text">03.12.2021</p>
+                        </div>
+
+                        <div class="history__state">
+                            <p class="history__state-text history__state-text--yes">Выполнено</p>
+                        </div>
+
+                        <div class="history__addition">
+                            <a class="history__addition-link" href="#">Пополнение счёта</a>
+                        </div>
+
+                        <div class="history__code">
+                            <p class="history__code-text" href="#">d8df6ae25c8b55d868</p>
+                        </div>
+
+
+                        <div class="history__method">
+                            <p class="history__method-text" href="#">USD</p>
+                        </div>
+
+                        <div class="history__summa">
+                            <p class="history__summa-text" href="#">0.0250 BTC</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="history__item">
+                    <div class="history__date">
+                        <p class="history__date-text">03.12.2021</p>
+                    </div>
+
+                    <div class="history__state">
+                        <p class="history__state-text history__state-text--yes">Выполнено</p>
+                    </div>
+
+                    <div class="history__addition">
+                        <a class="history__addition-link" href="#">Пополнение счёта</a>
+                    </div>
+
+                    <div class="history__code">
+                        <p class="history__code-text" href="#">d8df6ae25c8b55d868</p>
+                    </div>
+
+
+                    <div class="history__method">
+                        <p class="history__method-text" href="#"> <span class="history__method-icon"><i
+                                    class="fab fa-bitcoin"></i></span> BTC</p>
+                    </div>
+
+                    <div class="history__summa">
+                        <p class="history__summa-text" href="#">0.0250 BTC <span class="history__summa-downtext">15.65
+                                USD</span></p>
+                    </div>
+                </div>
+
+
+                <div class="history__item">
+                    <div class="history__date">
+                        <p class="history__date-text">03.12.2021</p>
+                    </div>
+
+                    <div class="history__state">
+                        <p class="history__state-text history__state-text--yes">Выполнено</p>
+                    </div>
+
+                    <div class="history__addition">
+                        <a class="history__addition-link" href="#">Пополнение тарифа</a>
+                    </div>
+
+                    <div class="history__code">
+                        <p class="history__code-text" href="#">d8df6ae25c8b55d868</p>
+                    </div>
+
+
+                    <div class="history__method">
+                        <p class="history__method-text" href="#">USD</p>
+                    </div>
+
+                    <div class="history__summa">
+                        <p class="history__summa-text" href="#">0.0250 BTC</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
